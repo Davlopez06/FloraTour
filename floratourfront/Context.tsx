@@ -13,6 +13,9 @@ const MyContext = createContext<MyContextData | undefined>(undefined);
 
 const MyContextProvider: React.FC<MyComponentProps> = ({ children }) => {
   const [value, setValue] = useState('');
+  const [email,setEmail] = useState('')
+  const [password,setPassword] = useState('')
+  const [empy,setEmpy] = useState(false)
 
   const handleChangeValue = (newValue: string) => {
     setValue(newValue);

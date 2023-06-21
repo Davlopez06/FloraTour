@@ -2,7 +2,18 @@ const pokeSchema= require("../models/plant.js")
 
 const plantsData = [
     {
-
+        commonName : '',
+        scientificName : '',
+        stateOfConservationue : '',
+        img : '',
+        region: ''
+    },
+    {
+        commonName : '',
+        scientificName : '',
+        stateOfConservationue : '',
+        img : '',
+        region: ''
     }
 ]
 

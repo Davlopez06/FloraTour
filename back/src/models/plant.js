@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const plantaSchema = mongoose.Schema({
+const plantSchema = mongoose.Schema({
     id: {
         type: Number,
         require: true,
@@ -28,4 +28,4 @@ const plantaSchema = mongoose.Schema({
     }
 })
 
-module.exports = mongoose.model('Planta', plantaSchema)
+module.exports = mongoose.model('Plant', plantSchema)

@@ -1,11 +1,6 @@
 const mongoose = require('mongoose')
 
 const plantSchema = mongoose.Schema({
-    id: {
-        type: Number,
-        require: true,
-        unique: true
-    },
     commonName: {
         type: String,
         require: true
